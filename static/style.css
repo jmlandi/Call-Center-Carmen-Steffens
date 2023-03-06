@@ -121,7 +121,7 @@ margin: 8px;
   background-color: #fff;
 }
 
-#frame a {
+#frame a, .btn-return {
   color: #343232;
   border: 1px solid #ccc;
   border-radius: 12px;
@@ -131,7 +131,7 @@ margin: 8px;
   margin-bottom: 25px;
 }
 
-#frame a:hover {
+#frame a:hover, .btn-return:hover {
   color: #ccc;
   background-color: #343232;
   border: 1px solid #ccc;

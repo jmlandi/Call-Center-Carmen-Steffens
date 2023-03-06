@@ -34,5 +34,13 @@ def financeiro():
 def gestor():
   return render_template('gestor.html')
 
+@app.route('/gestor/adm')
+def gestor_adm():
+  return render_template('assunto_gestor.html')
+
+@app.route('/gestor/ferramentas')
+def gestor_tools():
+  return render_template('assunto_ferramentas.html')
+
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=81)
