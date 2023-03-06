@@ -195,3 +195,25 @@ margin: 8px;
 .bold {
   font-weight: 1500;
 }
+
+/** WhatsApp **/
+
+#whatsapp {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+}
+
+#whatsapp p {
+  font-size: 0.75em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a.btn-wpp {
+  background-color: #29ff7b;
+}
+
+a.btn-wpp:hover {
+  background-color: #0c5528;
+  transition: background-color 0.6s ease-out;
+}
